@@ -11,7 +11,7 @@ const pageController = require('./controllers/pageController');
 const app = express();
 
 //Connect DB
-mongoose.connect('mongodb+srv://tolga:swkiTeBakrbmQkVD@cluster0.n2zcmtp.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
